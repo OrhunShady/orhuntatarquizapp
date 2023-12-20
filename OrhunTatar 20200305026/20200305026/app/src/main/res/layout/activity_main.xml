@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OrhunTatar">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="350dp"
+        android:layout_height="231dp"
+        android:layout_marginBottom="272dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonstart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.59"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:srcCompat="@drawable/sp" />
+
+    <Button
+        android:id="@+id/buttonstart"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="3dp"
+        android:backgroundTint="@color/black"
+        android:gravity="center"
+        android:text="Start Quiz"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/aboutbutton"
+        app:layout_constraintEnd_toStartOf="@+id/infobutton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <Button
+        android:id="@+id/infobutton"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="39dp"
+        android:backgroundTint="@color/black"
+        android:gravity="center"
+        android:text="Information"
+        android:textSize="20dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/buttonstart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonstart" />
+
+    <Button
+        android:id="@+id/aboutbutton"
+        android:layout_width="194dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="60dp"
+        android:backgroundTint="@color/black"
+        android:gravity="center"
+        android:text="About Application"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonstart" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="353dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="22dp"
+        android:gravity="center"
+        android:text="SHADY RECORDS COMPANY™ "
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".generalquizactivity">
+
+
+  <LinearLayout
+      android:id="@+id/linearLayout2"
+      android:layout_width="0dp"
+      android:layout_height="0dp"
+      android:layout_marginStart="28dp"
+      android:layout_marginTop="26dp"
+      android:layout_marginEnd="28dp"
+      android:layout_marginBottom="36dp"
+      android:gravity="center_vertical"
+      android:orientation="vertical"
+      app:layout_constraintBottom_toBottomOf="@+id/submıtbutton"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textView24">
+
+    <Button
+        android:id="@+id/ansA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/black"
+        android:text="ANS A" />
+
+    <Button
+        android:id="@+id/ansB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/black"
+        android:text="ANS B" />
+
+    <Button
+        android:id="@+id/ansC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/black"
+        android:text="ANS C" />
+
+    <Button
+        android:id="@+id/ansD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:backgroundTint="@color/black"
+        android:text="ANS D" />
+  </LinearLayout>
+
+  <TextView
+      android:id="@+id/textView22"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_horizontal"
+      android:layout_marginStart="24dp"
+      android:layout_marginTop="18dp"
+      android:padding="10dp"
+      android:paddingLeft="10dp"
+      android:paddingRight="10sp"
+      android:text="Total Question"
+      android:textSize="20dp"
+      android:textStyle="bold"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/textView24"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="99dp"
+      android:gravity="center_vertical"
+      android:text="This will be the question"
+      android:textSize="20dp"
+      android:textStyle="bold"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/stopbutton" />
+
+  <Button
+      android:id="@+id/submıtbutton"
+      android:layout_width="237dp"
+      android:layout_height="44dp"
+      android:layout_marginBottom="73dp"
+      android:backgroundTint="@color/black"
+      android:text="SUBMIT"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent" />
+
+  <Button
+      android:id="@+id/playbutton"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginEnd="12dp"
+      android:backgroundTint="@color/black"
+      android:text="Play"
+      android:textSize="17dp"
+      android:textStyle="bold"
+      app:layout_constraintEnd_toStartOf="@+id/stopbutton"
+      app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+  <TextView
+      android:id="@+id/textView25"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="44dp"
+      android:text="Turkısh March"
+      android:textSize="20dp"
+      android:textStyle="bold"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+  <Button
+      android:id="@+id/stopbutton"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="73dp"
+      android:backgroundTint="@color/black"
+      android:text="Stop"
+      android:textSize="17dp"
+      android:textStyle="bold"
+      app:layout_constraintStart_toStartOf="@+id/textView25"
+      app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+  <Button
+      android:id="@+id/backbutton2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="16dp"
+      android:layout_marginEnd="6dp"
+      android:backgroundTint="@color/black"
+      android:text="Back"
+      android:textSize="17dp"
+      android:textStyle="bold"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
